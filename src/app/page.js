@@ -1,12 +1,13 @@
 import Image from "next/image";
-import Page from "../app/ecom/page"
+import Page from "./ecom/signupAndSignin"
+import SignupAndSignin from "./ecom/signupAndSignin";
 
 export default function Home() {
   return (
   
       <main >
         <h1 className="">
-          <Page></Page>
+          <SignupAndSignin></SignupAndSignin>
         </h1>
       </main>
       
