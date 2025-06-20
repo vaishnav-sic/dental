@@ -7,7 +7,7 @@ export default function Home() {
   
       <main >
         <h1 className="">
-          <Navbar/>
+          
           <Page></Page>
         </h1>
       </main>
