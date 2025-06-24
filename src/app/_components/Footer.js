@@ -3,198 +3,261 @@ import React from 'react'
 const Foorter = () => {
   return (
     <>
-  <div className="w-full inline-flex flex-col justify-start items-start">
-  <div className="self-stretch relative flex flex-col justify-start items-start">
-    <div className="self-stretch h-96 px-6 bg-black/50" />
-    <div className="w-80 left-[35px] top-[72px] absolute flex flex-col justify-center items-center gap-6">
-      <div className="self-stretch flex flex-col justify-start items-center gap-2">
-        <div className="self-stretch text-center justify-start text-Colors-Token-Text-CONTRAST-5 text-3xl font-semibold font-['Poppins'] leading-9">Be the first to know about new drops and exclusive offers!</div>
-        <div className="self-stretch text-center justify-center text-Colors-Token-Button-White text-sm font-normal font-['Open_Sans'] leading-none">Subscribe to our newsletter for early access, special deals, and the latest trends.</div>
-      </div>
-      <div data-show-button="true" data-show-cursor="true" data-show-header="false" data-show-label="true" data-show-left="false" data-show-message="false" data-show-right="false" data-show-tooltip="true" data-state="Default" className="self-stretch flex flex-col justify-start items-start gap-1.5">
-        <div className="self-stretch h-12 inline-flex justify-start items-start flex-wrap content-start">
-          <div className="flex-1 h-12 p-3 bg-Colors-Token-Backgorund-Base outline outline-1 outline-offset-[-1px] outline-Colors-Token-Border-Primary flex justify-start items-center gap-2">
-            <div className="flex-1 justify-center text-Colors-Token-Text-CONTRAST-2 text-xs font-medium font-['Open_Sans'] leading-none">Your Email</div>
-          </div>
-          <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="true" data-size="Small" data-state="Default" data-style="Black" data-type="Default" className="h-12 px-4 py-2 bg-Colors-Token-Button-Default shadow-[0px_1px_2px_0px_rgba(0,0,0,0.12)] shadow-[inset_0px_-1px_0px_0px_rgba(0,0,0,0.08)] border-Colors-Token-Border-Primary flex justify-center items-center gap-1.5">
-            <div className="text-center justify-center text-Colors-Token-Text-CONTRAST-5 text-sm font-semibold font-['Open_Sans'] leading-none">SIGN UP</div>
-            <div className="w-4 h-4 relative">
-              <div className="w-4 h-4 left-0 top-0 absolute overflow-hidden">
-                <div className="w-2.5 h-3 left-[2.40px] top-[12.80px] absolute origin-top-left -rotate-90 bg-Colors-Token-Text-CONTRAST-5" />
-              </div>
+<footer>
+   {/* Desktop Footer */}
+   <div className="justify-start lg:flex xl:flex  xl:justify-center xl:items-center lg:justify-center lg:items-center flex">
+    <div className="xl:flex xl:flex-col xl:w-full bg-white lg:flex lg:flex-col lg:w-full md:flex md:flex-col md:w-full flex w-full">
+			<div className="lg:self-stretch xl:self-stretch md:self-stretch self-stretch">
+				<div className="w-full xl:flex xl:flex-col xl:items-center xl:self-stretch xl:py-[123px] xl:bg-cover xl:bg-center   lg:flex lg:flex-col lg:items-center lg:self-stretch lg:bg-cover lg:bg-center lg:py-[123px]     md:flex md:flex-col md:items-center md:self-stretch md:py-[123px] md:bg-cover md:bg-center flex flex-col items-center self-stretch bg-cover bg-center py-[60px]   bg-[url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/dk3iqxx3_expires_30_days.png')] ">
+					<div className="flex flex-col xl:w-[1058px] w-[830px] lg:w-[1058px] md:w-full">
+						<span className="text-white xl:text-5xl lg:text-5xl font-bold text-center mb-2 md:text-4xl text-xl" >
+							{"Be the first to know about new drops and exclusive offers!"}
+						</span>
+						<span className="xl:text-white xl:text-xl  xl:text-center xl:mb-[23px] xl:mx-48   lg:text-white lg:text-xl lg:text-center lg:mb-[23px] lg:mx-lg  text-white text-lg  text-center mb-[12px] " >
+							{"Subscribe to our newsletter for early access, special deals, and the latest trends."}
+						</span>
+						<div className="flex items-start self-stretch mx-[300px]     md:flex md:items-start md:self-stretch md:mx-[202px]    xl:flex xl:items-start xl:self-stretch xl:mx-[202px]    lg:flex lg:items-start lg:self-stretch lg:mx-[202px]">
+							<div className="flex flex-1 flex-col items-start h-7 bg-white xl:py-3 py-1.5 lg:py-3 border border-solid  md:h-9 xl:h-11 lg:h-11 border-[#E7E7E7]">
+								<input type='email' className="text-[#393939] md:text-sm lg:text-sm xl:text-sm text-xs font-bold ml-1 md:ml-3 lg:ml-3 xl:ml-3 w-[100%] outline-none" placeholder='Your Email'>
+
+								</input>
+							</div>
+							<button className="flex shrink-0 items-center cursor-pointer bg-[#010101] py-2 ml-2 px-2 gap-[4px] h-7   md:py-2 md:ml-2 md:px-3 md:gap-[6px] md:h-9   lg:py-2.5 lg:ml-2 lg:px-4 lg:gap-[9px] lg:h-11  xl:py-2.5 xl:ml-2 xl:px-4 xl:gap-[9px] xl:h-11" 
+								style={{
+									boxShadow: "0px 1px 2px #0000001C"
+								}}>
+								<div className="text-white text-xs lg:text-lg xl:text-lg md:text-lg font-bold" >
+									{"SIGN UP"}
+								</div>
+								<img
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/jv0m8n6f_expires_30_days.png"} 
+									className="w-3 h-3 md:w-4 md:h-4 lg:w-4 lg:h-4 xl:w-4 xl:h-4 object-fill"
+								/>
+							</button>
+						</div>
+					</div>
+				</div>
+
+{/* 
+        Section 2 */}
+				<div className="self-stretch w-full">
+					<div className="px-8 flex md:justify-between justify-start flex-col md:flex-row lg:flex-row xl:flex-row lg:justify-between xl:justify-between w-full wrap items-center self-stretch bg-[#F7F7F7] md:h-100 lg:h-100 xl:h-100 lg:px-16 xl:px-16 md:px-16">
+            <div>
+<div className="flex flex-col shrink-0 items-start wrap">
+							<img
+								src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/mbculzz8_expires_30_days.png"} 
+								className="w-30 h-12.5 mb-6 mt-6 md:w-25 md:h-10 md:mb-6  lg:w-25 lg:h-10 lg:mb-6  xl:w-25 xl:h-10 xl:mb-6 object-fill"
+							/>
+							<span className="text-[#010101] text-sm w-[367px] font-medium mb-4 md:mb-8 lg:mb-8 xl:mb-8" >
+								<p>Not Just Shoes, but a Statement.</p>
+                <p>Kicks Designed to Keep You One Step Ahead.</p>
+							</span>
+
+
+<div className="flex flex-col items-start gap-0 md:hidden lg:hidden xl:hidden">
+                 <h1 className='text-black/50 font-semibold leading-0 mt-2'>GET IN TOUCH</h1>
+								<div className="flex items-center leading-0 mt-3">
+									<img
+										src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/vr9tn3ij_expires_30_days.png"} 
+										className="w-4 h-4 object-fill"
+									/>
+									<span className="text-[#010101] text-sm  leading-0 ml-3 mr-[99px]" >
+										{"8767834050"}
+									</span>
+								</div>
+								<div className="flex items-center gap-2 mb-4 mt-0 leading-0">
+									<img
+										src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/jpy9124u_expires_30_days.png"} 
+										className="w-4 h-4 object-fill"
+									/>
+									<span className="text-[#010101] text-sm my-2" >
+										{"supportsic@g.com"}
+									</span>
+								</div>
+							</div>
+
+							<div className="flex items-start mb-[31px] lg:gap-4 xl:gap-4 gap-2 md:gap-4">
+								<img
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/dbwx2ur5_expires_30_days.png"} 
+									className="w-9 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:w-10 xl:h-10 object-fill"
+								/>
+								<img
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/h7e5ykmq_expires_30_days.png"} 
+									className="w-10 h-10 object-fill"
+								/>
+								<img
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/vhsfzs8l_expires_30_days.png"} 
+									className="w-10 h-10 object-fill"
+								/>
+								<img
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/6ysyjmki_expires_30_days.png"} 
+									className="w-10 h-10 object-fill"
+								/>
+							</div>
+
+
+							<div className="md:flex md:flex-col md:items-start md:gap-0  lg:flex lg:flex-col lg:items-start lg:gap-0  xl:flex xl:flex-col xl:items-start xl:gap-0   hidden">
+
+								<div className="flex items-center">
+									<img
+										src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/vr9tn3ij_expires_30_days.png"} 
+										className="w-4 h-4 object-fill"
+									/>
+									<span className="text-[#010101] text-sm my-2 ml-3 mr-[99px]" >
+										{"8767834050"}
+									</span>
+								</div>
+								<div className="flex items-center gap-2">
+									<img
+										src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/jpy9124u_expires_30_days.png"} 
+										className="w-4 h-4 object-fill"
+									/>
+									<span className="text-[#010101] text-sm my-2" >
+										{"supportsic@g.com"}
+									</span>
+								</div>
+							</div>
+
+
+						</div>
             </div>
-          </div>
-        </div>
-      </div>
+
+
+            <div>
+
+						<div className="flex shrink-0 wrap items-start w-full xl:gap-20 lg:gap-20">
+
+
+                  <div className="flex flex-col shrink-0 items-start mr-2 gap-[2px]">
+								<span className="text-[#393939] text-xl font-bold" >
+									{"BRANDS"}
+								</span>
+								<div className="flex flex-col items-start">
+									<a  href='https://www.google.com' className="text-black/90 text-sm font-semibold mt-5 mb-2 " >
+										{"Orthometric"}
+									</a>
+									<a  href='www.google.com'className="text-black/90 font-semibold text-sm mt-1 mb-2 " >
+										{"GC"}
+									</a>
+									<a href='www.google.com' className="text-black/90 font-semibold text-sm my-1 " >
+										{"Dentsply"}
+									</a>
+                  <a href='www.google.com' className="text-black/90 font-semibold text-sm my-1 " >
+										{"Waldent"}
+									</a>
+                  <a href='www.google.com' className="text-black/90 font-semibold text-sm my-1 " >
+										{"SuperEndo"}
+									</a>
+                  <a href='www.google.com' className="text-black/90 font-semibold text-sm my-1 " >
+										{"ET Dental"}
+									</a>
+								</div>
+							</div>
+
+
+
+							<div className="flex flex-col shrink-0 items-start mr-2 gap-[2px] wrap">
+								<span className="text-[#393939] text-xl font-bold" >
+									{"ABOUT"}
+								</span>
+								<div className="flex flex-col items-start">
+									<a  href='https://www.google.com' className="text-black/90 text-sm font-semibold mt-5 mb-2 " >
+										{"Contact Us"}
+									</a>
+									<a  href='www.google.com'className="text-black/90 font-semibold text-sm mt-1 mb-2 " >
+										{"Kids"}
+									</a>
+									<a href='www.google.com' className="text-black/90 font-semibold text-sm my-1 " >
+										{"Women"}
+									</a>
+								</div>
+							</div>
+
+
+              	<div className="flex flex-col shrink-0 items-start mr-2 gap-[2px]">
+								<span className="text-[#393939] text-xl font-bold" >
+									{"POLICY"}
+								</span>
+								<div className="flex flex-col items-start">
+									<a  href='https://www.google.com' className="text-black/90 text-sm font-semibold mt-5 mb-2 " >
+										{"Return Policy"}
+									</a>
+									<a  href='www.google.com'className="text-black/90 font-semibold text-sm mt-1 mb-2 " >
+										{"Term Of Use"}
+									</a>
+									<a href='www.google.com' className="text-black/90 font-semibold text-sm my-1 " >
+										{"Privacy"}
+									</a>
+								</div>
+							</div>
+
+
+              	<div className="flex flex-col shrink-0 items-start mr-2 gap-[2px]">
+								<span className="text-[#393939] text-xl font-bold" >
+									{"HELP"}
+								</span>
+								<div className="flex flex-col items-start">
+									<a  href='https://www.google.com' className="text-black/90 text-sm font-semibold mt-5 mb-2 " >
+										{"Orders"}
+									</a>
+									<a  href='www.google.com'className="text-black/90 font-semibold text-sm mt-1 mb-2 " >
+										{"Refunds"}
+									</a>
+									<a href='www.google.com' className="text-black/90 font-semibold text-sm my-1 " >
+										{"Payments"}
+									</a>
+                  <a href='www.google.com' className="text-black/90 font-semibold text-sm my-1 " >
+										{"Rewards"}
+									</a>
+								</div>
+							</div>
+              	
+						</div>
+            </div>
+						
+
+					</div>
+					<div className="flex items-center self-stretch bg-[#010101]  py-8 px-90">
+						<span className="text-white text-sm font-bold mr-[22px]" >
+							{"© 2024 Zapatos. Store by Blazecommerce.io"}
+						</span>
+						<img
+							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/ljrn1edl_expires_30_days.png"} 
+							className="w-[29px] h-[18px] mr-6 object-fill"
+						/>
+						<img
+							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/z2jmx52w_expires_30_days.png"} 
+							className="w-[55px] h-[18px] object-fill"
+						/>
+						<div className="flex-1 self-stretch">
+						</div>
+						<img
+							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/2r74g79f_expires_30_days.png"} 
+							className="w-[93px] h-[18px] mr-6 object-fill"
+						/>
+						<img
+							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sn85KQFOI6/7zoruljn_expires_30_days.png"} 
+							className="w-[67px] h-[18px] object-fill"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+   </div>
+
+  {/* Tablet Footer */}
+    <div className="hidden md:flex lg:hidden">
+
+
     </div>
-  </div>
-  <div className="self-stretch flex flex-col justify-start items-start">
-    <div className="self-stretch px-4 py-12 bg-Colors-Token-Backgorund-Base-2 flex flex-col justify-start items-start gap-12">
-      <div className="self-stretch flex flex-col justify-start items-start gap-12">
-        <div className="self-stretch flex flex-col justify-start items-start gap-6">
-          <div data-property-1="V1" className="w-48 h-20 relative">
-            <div className="w-48 h-14 left-[-0.21px] top-[7.71px] absolute bg-neutral-200" />
-          </div>
-          <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Open_Sans'] leading-none">Not Just Shoes, but a Statement.  Kicks Designed to Keep You One Step Ahead</div>
-        </div>
-        <div className="w-96 flex flex-col justify-start items-start gap-6">
-          <div className="self-stretch flex flex-col justify-start items-start gap-3">
-            <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST-2 text-base font-semibold font-['Open_Sans'] leading-normal">GET IN TOUCH</div>
-            <div className="inline-flex justify-start items-center">
-              <div data-size="48" className="w-6 h-6 relative overflow-hidden">
-                <div className="w-5 h-5 left-[2.11px] top-[2px] absolute outline outline-2 outline-offset-[-1px] outline-Colors-Token-Text-CONTRAST" />
-              </div>
-              <div className="w-56 p-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">08978978789</div>
-              </div>
-            </div>
-            <div className="self-stretch flex flex-col justify-start items-start">
-              <div className="self-stretch inline-flex justify-start items-center">
-                <div data-size="48" className="w-6 h-6 relative overflow-hidden">
-                  <div className="w-5 h-4 left-[2px] top-[4px] absolute outline outline-2 outline-offset-[-1px] outline-Colors-Token-Text-CONTRAST" />
-                </div>
-                <div className="w-72 p-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                  <div className="justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">supportoursmallbusiness@g.com</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-96 flex flex-col justify-start items-start gap-8">
-          <div className="self-stretch flex flex-col justify-start items-start gap-6">
-            <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST-2 text-base font-semibold font-['Open_Sans'] leading-normal">FOLLOW US</div>
-            <div className="inline-flex justify-start items-center gap-4">
-              <div data-color="Negative" data-platform="Facebook" className="w-8 h-8 relative overflow-hidden">
-                <div className="w-8 h-8 left-0 top-0 absolute bg-Colors-Token-Text-CONTRAST" />
-              </div>
-              <div data-color="Negative" data-platform="X (Twitter)" className="w-8 h-8 relative overflow-hidden">
-                <div className="w-7 h-7 left-[1.33px] top-[2.54px] absolute bg-Colors-Token-Text-CONTRAST" />
-              </div>
-              <div data-color="Negative" data-platform="Instagram" className="w-8 h-8 relative overflow-hidden">
-                <div className="w-8 h-8 left-0 top-0 absolute bg-Colors-Token-Text-CONTRAST" />
-                <div className="w-4 h-4 left-[7.78px] top-[7.78px] absolute bg-Colors-Token-Text-CONTRAST" />
-                <div className="w-1 h-1 left-[22.62px] top-[5.54px] absolute bg-Colors-Token-Text-CONTRAST" />
-              </div>
-              <div data-color="Negative" data-platform="YouTube" className="w-8 h-8 relative overflow-hidden">
-                <div className="w-8 h-6 left-0 top-[4.74px] absolute bg-Colors-Token-Text-CONTRAST" />
-              </div>
-            </div>
-          </div>
-        </div>
+
+
+    {/* Mobile Footer */}
+      <div className="flex md:hidden justify-between items-center">
+
       </div>
-      <div className="self-stretch flex flex-col justify-start items-start gap-10">
-        <div className="self-stretch flex flex-col justify-start items-start gap-4">
-          <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST-2 text-base font-semibold font-['Open_Sans'] leading-normal">SHOP</div>
-          <div className="self-stretch flex flex-col justify-start items-start gap-2">
-            <div className="inline-flex justify-start items-start">
-              <div className="w-56 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Men</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Kids</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Women</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="self-stretch flex flex-col justify-start items-start gap-4">
-          <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST-2 text-base font-semibold font-['Open_Sans'] leading-normal">BRANDS</div>
-          <div className="self-stretch flex flex-col justify-start items-start gap-2">
-            <div className="inline-flex justify-start items-start">
-              <div className="w-56 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Adidas</div>
-              </div>
-            </div>
-            <div className="inline-flex justify-start items-start">
-              <div className="w-56 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Nike</div>
-              </div>
-            </div>
-            <div className="inline-flex justify-start items-start">
-              <div className="w-56 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Fila</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Brooks</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Mizuna</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Salomon</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="self-stretch flex flex-col justify-start items-start gap-4">
-          <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST-2 text-base font-semibold font-['Open_Sans'] leading-normal">QUICK LINKS</div>
-          <div className="self-stretch flex flex-col justify-start items-start gap-2">
-            <div className="inline-flex justify-start items-start">
-              <div className="w-56 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Return</div>
-              </div>
-            </div>
-            <div className="inline-flex justify-start items-start">
-              <div className="w-56 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Shipping</div>
-              </div>
-            </div>
-            <div className="inline-flex justify-start items-start">
-              <div className="w-56 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">About Us</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">FAQ’s</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Contact Us</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Terms  & Conditions</div>
-              </div>
-            </div>
-            <div className="self-stretch inline-flex justify-start items-start">
-              <div className="w-72 py-3 rounded-md inline-flex flex-col justify-start items-start gap-1">
-                <div className="self-stretch justify-start text-Colors-Token-Text-CONTRAST text-sm font-normal font-['Poppins'] leading-none">Privacy Policy</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="self-stretch px-4 py-8 bg-Colors-Token-Text-CONTRAST flex flex-col justify-start items-center gap-5">
-      <div className="justify-center text-white text-xs font-bold font-['Open_Sans'] leading-none">© 2024 Zapatos. Store by Blazecommerce.io </div>
-      <div className="inline-flex justify-end items-center gap-6">
-        <div className="w-7 h-4 bg-white" />
-        <div className="w-14 h-4 relative overflow-hidden">
-          <div className="w-14 h-4 left-0 top-0 absolute bg-ADMERCH-SURFACE-SURFACE-WHITE" />
-        </div>
-        <div className="w-24 h-4 relative overflow-hidden">
-          <div className="w-24 h-4 left-0 top-0 absolute bg-ADMERCH-SURFACE-SURFACE-WHITE" />
-        </div>
-        <img className="w-16 h-4" src="https://placehold.co/67x18" />
-      </div>
-    </div>
-  </div>
-</div>
+
+</footer>
     </>
   )
 }
