@@ -1,13 +1,14 @@
 import Image from "next/image";
-import Page from "./ecom/signupAndSignin"
-import SignupAndSignin from "./ecom/signupAndSignin";
+import Page from "../app/ecom/page"
+import Navbar from "./_components/Navbar";
 
 export default function Home() {
   return (
   
       <main >
         <h1 className="">
-          <SignupAndSignin></SignupAndSignin>
+          
+          <Page></Page>
         </h1>
       </main>
       
