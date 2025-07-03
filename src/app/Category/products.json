@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Dental Mirror",
+    "description": "High-quality stainless steel dental mirror.",
+    "image": "/categoryimg/product1.png",
+    "price": "₹0",
+    "mrp": "₹250",
+    "offer": "Freebie",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Cotton Rolls Pack",
+    "description": "Pack of 100 cotton rolls for clinical use.",
+    "image": "/categoryimg/product1.png",
+    "price": "₹0",
+    "mrp": "₹180",
+    "offer": "Freebie",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Dental Mirror",
+    "description": "High-quality stainless steel dental mirror.",
+    "image": "/categoryimg/product1.png",
+    "price": "₹0",
+    "mrp": "₹250",
+    "offer": "Freebie",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "name": "Dental Mirror",
+    "description": "High-quality stainless steel dental mirror.",
+    "image": "/categoryimg/product1.png",
+    "price": "₹0",
+    "mrp": "₹250",
+    "offer": "Freebie",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "Dental Mirror",
+    "description": "High-quality stainless steel dental mirror.",
+    "image": "/categoryimg/product1.png",
+    "price": "₹0",
+    "mrp": "₹250",
+    "offer": "Freebie",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "name": "Dental Mirror",
+    "description": "High-quality stainless steel dental mirror.",
+    "image": "/categoryimg/product1.png",
+    "price": "₹0",
+    "mrp": "₹250",
+    "offer": "Freebie",
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "name": "Dental Mirror",
+    "description": "High-quality stainless steel dental mirror.",
+    "image": "/categoryimg/product1.png",
+    "price": "₹0",
+    "mrp": "₹250",
+    "offer": "Freebie",
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "name": "Dental Mirror",
+    "description": "High-quality stainless steel dental mirror.",
+    "image": "/categoryimg/product1.png",
+    "price": "₹0",
+    "mrp": "₹250",
+    "offer": "Freebie",
+    "rating": 4
+  }
+]
